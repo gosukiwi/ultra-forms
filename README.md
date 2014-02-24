@@ -25,12 +25,13 @@ It provides several utility functions to manage forms creation
 
 ## Using with Katar
 
-  <h1>Register New Account</h1>
-  {{ $form->open() }}
-    <div class="input">
-      {{ $form->label('Username', 'user') }}
-      {{ $form->input('user') }}
-    </div>
-  {{ $form->close() }}
-
+```
+<h1>Register New Account</h1>
+{{ $form->open() }}
+  <div class="input">
+    {{ $form->label('Username', 'user') }}
+    {{ $form->input('user') }}
+  </div>
+{{ $form->close() }}
+```
 
